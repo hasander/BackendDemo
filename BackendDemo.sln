@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.SharedLibrary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.API", "BackendDemo.API\BackendDemo.API.csproj", "{EBB006E9-5050-44BC-A666-58E05F16DEFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{CD059544-F0A2-4D4B-A304-CFAE7FF9A5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.ExceptionMiddleware", "BackendDemo.ExceptionMiddleware\BackendDemo.ExceptionMiddleware.csproj", "{ED370362-553D-4D6E-BF7A-4395F5ADDE86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +43,16 @@ Global
 		{EBB006E9-5050-44BC-A666-58E05F16DEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB006E9-5050-44BC-A666-58E05F16DEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB006E9-5050-44BC-A666-58E05F16DEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED370362-553D-4D6E-BF7A-4395F5ADDE86} = {CD059544-F0A2-4D4B-A304-CFAE7FF9A5E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2953914E-67E6-4B20-B3E6-6D93B574BEFB}

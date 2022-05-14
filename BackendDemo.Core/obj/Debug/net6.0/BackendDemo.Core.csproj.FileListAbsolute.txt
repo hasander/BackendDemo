@@ -1,0 +1,12 @@
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\bin\Debug\net6.0\BackendDemo.Core.deps.json
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\bin\Debug\net6.0\BackendDemo.Core.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\bin\Debug\net6.0\BackendDemo.Core.pdb
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.csproj.AssemblyReference.cache
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.AssemblyInfoInputs.cache
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.AssemblyInfo.cs
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.csproj.CoreCompileInputs.cache
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\refint\BackendDemo.Core.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\BackendDemo.Core.pdb
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.Core\obj\Debug\net6.0\ref\BackendDemo.Core.dll
