@@ -10,7 +10,7 @@ public partial class BaseService<TEntity, TDto> : BusinessService, IBaseService<
     where TEntity : BaseEntity
     where TDto : BaseDTO
 {
-    public BaseService(IServiceProvider serviceProvider, UnitOfWorkType serviceType = UnitOfWorkType.Cit) : base(serviceProvider, serviceType)
+    public BaseService(IServiceProvider serviceProvider, UnitOfWorkType serviceType = UnitOfWorkType.BackendDemoApp) : base(serviceProvider, serviceType)
     {
     }
 

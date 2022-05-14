@@ -50,4 +50,10 @@ public class MaintenanceController : Controller
     {
         return await maintenanceService.GetAll();
     }
+
+    [HttpGet("MaintenanceReport")]
+    public async Task<AppResponse<ICollection<MaintenanceDTO>>> MaintenanceReport(MaintenanceReportFilterDTO filterDTO)
+    {
+        return await maintenanceService.MaintenanceReport(filterDTO);
+    }
 }

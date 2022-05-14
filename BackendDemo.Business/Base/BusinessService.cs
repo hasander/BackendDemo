@@ -48,7 +48,7 @@ public abstract class BusinessService : IBusinessService
     {
         switch (_serviceType)
         {
-            case UnitOfWorkType.Cit:
+            case UnitOfWorkType.BackendDemoApp:
                 return UnitOfWork;
             default:
                 return null;
@@ -74,7 +74,7 @@ public abstract class BusinessService : IBusinessService
 
 public enum UnitOfWorkType
 {
-    Cit = 1,
+    BackendDemoApp = 1,
     Kimlik = 2,
     Tanimsiz = 3,
 }
