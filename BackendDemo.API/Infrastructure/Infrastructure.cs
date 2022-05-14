@@ -38,6 +38,7 @@ namespace BackendDemo.BorsaApi.Infrastructure
             services.AddDbContext<AppDbContext>(opt =>
             {
                 opt.UseNpgsql(_configuration.GetConnectionString("AppDb"));
+                
             });
             return services;
         }

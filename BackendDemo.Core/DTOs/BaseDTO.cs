@@ -15,8 +15,8 @@ public class BaseDTO
     public bool IsDeleted { get; set; }
 
     [ForeignKey("ModifiedBy")]
-    public virtual UserDTO ModifiedByUser { get; set; }
+    public virtual UserDTO? ModifiedByUser { get; set; }
     [ForeignKey("CreatedBy")]
-    public virtual UserDTO CreatedByUser { get; set; }
+    public virtual UserDTO? CreatedByUser { get; set; }
 
 }

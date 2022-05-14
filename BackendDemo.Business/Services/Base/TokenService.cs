@@ -49,8 +49,7 @@ public class TokenService : BusinessService, ITokenService
             AccesTokenExpirationDate = accessTokenExpiration,
         };
          
-
-        await _userService.Update(user);
+         
 
         return new AppResponse<TokenDTO>(tokenDto, ResponseStatus.SUCCESS);
     }

@@ -6,5 +6,5 @@ namespace BackendDemo.Business.IServices;
 
 public interface IUserService : IBaseService<User, UserDTO>
 {
-    Task<User?> GetUserByFirstNameandLastName(string firstName, string lastName);
+    Task<User?> GetUserByFirstNameAndLastName(string firstName, string lastName);
 }

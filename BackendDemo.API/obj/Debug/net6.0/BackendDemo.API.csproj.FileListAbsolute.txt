@@ -54,3 +54,7 @@ C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\Backend
 C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\BackendDemo.Core.pdb
 C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\BackendDemo.Data.pdb
 C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\BackendDemo.SharedLibrary.pdb
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\asasd\source\repos\BackendDemo\BackendDemo.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

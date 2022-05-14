@@ -11,7 +11,7 @@ public interface IBaseService<TEntity, TDto>
 {
     Task<AppResponse> GetAll();
 
-    Task<AppResponse> GetById(long id);
+    Task<AppResponse> GetById(int id);
 
     Task<AppResponse> Add(TDto entity);
 
@@ -23,7 +23,7 @@ public interface IBaseService<TEntity, TDto>
 
     bool Any(Expression<Func<TEntity, bool>> filter);
 
-    Task<AppResponse> DeleteById(long id);
+    Task<AppResponse> DeleteById(int id);
 
-    Task<AppResponse> DeleteSoftById(long id);
+    Task<AppResponse> DeleteSoftById(int id);
 }

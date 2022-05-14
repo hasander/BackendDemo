@@ -22,10 +22,10 @@ public class AuthenticationService : BusinessService, IAuthenticationService
         if (loginDto == null)
             throw new ArgumentNullException(nameof(loginDto));
 
-        if (String.IsNullOrEmpty(loginDto.UserName) || String.IsNullOrEmpty(loginDto.Password))
+        if (String.IsNullOrEmpty(loginDto.FirsName) || String.IsNullOrEmpty(loginDto.LastName))
             throw new InvalidDataException(nameof(loginDto));
 
-        var user = await _userService.GetUserByFirstNameandLastName(loginDto.UserName, loginDto.Password);
+        var user = await _userService.GetUserByFirstNameAndLastName(loginDto.FirsName, loginDto.LastName);
 
         if (user == null)
             return new AppResponse<TokenDTO>("Kullanıcı bulunamadı", ResponseStatus.ERROR);

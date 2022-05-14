@@ -49,7 +49,7 @@ public partial class BaseService<TEntity, TDto> : BusinessService, IBaseService<
 
     
 
-    public virtual async Task<AppResponse> DeleteById(long id)
+    public virtual async Task<AppResponse> DeleteById(int id)
     {
         AppResponse.Data = await BaseUnitOfWork().Repository<TEntity>().DeleteById(id, false);
         AppResponse.Message = "Kayit Silme Basarili";
@@ -57,7 +57,7 @@ public partial class BaseService<TEntity, TDto> : BusinessService, IBaseService<
         return AppResponse;
     }
 
-    public virtual async Task<AppResponse> DeleteSoftById(long id)
+    public virtual async Task<AppResponse> DeleteSoftById(int id)
     {
         AppResponse.Data = await BaseUnitOfWork().Repository<TEntity>().DeleteById(id);
         AppResponse.Message = "Kayit Silme Basarili";
@@ -72,7 +72,7 @@ public partial class BaseService<TEntity, TDto> : BusinessService, IBaseService<
         return AppResponse;
     }
 
-    public virtual async Task<AppResponse> GetById(long id)
+    public virtual async Task<AppResponse> GetById(int id)
     {
         AppResponse.Data = await BaseUnitOfWork().Repository<TEntity>().GetByIdAsync(id);
         AppResponse.Status = ResponseStatus.SUCCESS;

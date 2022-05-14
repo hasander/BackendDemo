@@ -1,5 +1,6 @@
 ﻿using BackendDemo.Core.Entities;
 using BackendDemo.Data.Context.Base;
+using BackendDemo.Data.Context.Seed;
 using Microsoft.EntityFrameworkCore;
 
 namespace BackendDemo.Data.Context;
@@ -18,4 +19,12 @@ public class AppDbContext : DataContext
     public DbSet<PictureGroup> PictureGroup { get; set; }
     public DbSet<Status> Status { get; set; }
     public DbSet<ActionType> ActionType { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.AddUserSeed();
+
+        builder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+        base.OnModelCreating(builder);
+    }
 }

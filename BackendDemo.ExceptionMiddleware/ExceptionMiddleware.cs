@@ -14,7 +14,7 @@ public class ExceptionMiddleware
     private readonly RequestDelegate _nextMiddleWare;
     private readonly IHostingEnvironment _hostingEnvironment;
 
-    public ExceptionMiddleware(RequestDelegate next, ILogger logger, IHostingEnvironment hostingEnvironment)
+    public ExceptionMiddleware(RequestDelegate next,  IHostingEnvironment hostingEnvironment)
     {
         _nextMiddleWare = next;
         _hostingEnvironment = hostingEnvironment;

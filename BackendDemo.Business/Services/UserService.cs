@@ -12,7 +12,7 @@ public class UserService : BaseService<User,UserDTO>,IUserService
     {
     }
 
-    public async Task<User?> GetUserByFirstNameandLastName(string firstName, string lastName)
+    public async Task<User?> GetUserByFirstNameAndLastName(string firstName, string lastName)
     {
         return await UnitOfWork.Repository<User>().Query().AsNoTracking().FirstOrDefaultAsync(p => p.FirstName == firstName && p.LastName == lastName);
     }
