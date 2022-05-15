@@ -10,7 +10,7 @@ public interface IUnitOfWork<TContext> : IUnitOfWork
 
 public interface IUnitOfWork : IDisposable
 {
-    public User User { get; set; }
+    public User? User { get; set; }
 
     IRepository<T> Repository<T>() where T : BaseEntity;
 

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.API", "BackendD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.ExceptionMiddleware", "BackendDemo.ExceptionMiddleware\BackendDemo.ExceptionMiddleware.csproj", "{ED370362-553D-4D6E-BF7A-4395F5ADDE86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendDemo.UnitTests", "BackendDemo.UnitTests\BackendDemo.UnitTests.csproj", "{D1033260-E57C-4ABC-814A-BB23411A5DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED370362-553D-4D6E-BF7A-4395F5ADDE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1033260-E57C-4ABC-814A-BB23411A5DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1033260-E57C-4ABC-814A-BB23411A5DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1033260-E57C-4ABC-814A-BB23411A5DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1033260-E57C-4ABC-814A-BB23411A5DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
