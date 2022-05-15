@@ -1,5 +1,5 @@
 # Backend Demo Project
-<h2>How to installiation?</h2>
+<h2>How to installation?</h2>
 
 <h3>Step 1: Clone Project</h3>
 <ul>
