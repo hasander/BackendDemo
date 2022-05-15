@@ -19,7 +19,10 @@ public class MaintenanceService : BaseService<Maintenance, MaintenanceDTO>, IMai
             .ThenInclude(m => m.ActionType)
             .Include(m => m.Status)
             .Include(m => m.Vehicle)
-            .ThenInclude(v => v.VehicleType).ToList();
+            .ThenInclude(v => v.VehicleType)
+            .Where(x=>filterDTO.EndDate>x.CreatedDate)
+            .Where(x=>filterDTO.StartDate<x.CreatedDate)
+            .ToList();
         return new AppResponse<ICollection<MaintenanceDTO>>()
         {
             Data = Mapper.Map<List<Maintenance>, List<MaintenanceDTO>>(maintences),
