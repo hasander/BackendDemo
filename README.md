@@ -1,7 +1,7 @@
 # Backend Demo Project
 <h2>How is installation?</h2>
 
-<h3>Step 1: Clone Project</h3>
+<h3>Step 1:Clone Project</h3>
 <ul>
 <li>Please clone BackendDemo repository. "https://github.com/hasander/BackendDemo.git"</li>
 </ul>
